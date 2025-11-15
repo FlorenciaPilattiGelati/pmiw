@@ -1,7 +1,7 @@
 class Juego{
   constructor(canti,tam){
     this.tama=tam;
-    this.cant=canti
+    this.cant=canti;
     this.Pareja=new Pareja(tam);
     this.fondo2= new Fondo(-480);
     this.fondo = new Fondo(0)
@@ -105,7 +105,7 @@ this.Botonfin.dibujarboton("Regresar al inicio");
   
     ganar(){
     if (this.Tiempo.tiempo<=0){
-   this.estado="ganaste"
+   this.estado="ganaste";
   }
     }
 reiniciar() {

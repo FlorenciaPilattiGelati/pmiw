@@ -1,6 +1,6 @@
 class Tiempo{
 constructor(){
-  this.tiempo=20
+  this.tiempo=20;
 }
 dibujartiempo(){
   textSize(30);

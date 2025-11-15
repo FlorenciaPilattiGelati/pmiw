@@ -2,7 +2,7 @@ class Grupo{
   constructor(px,py,tamaño){
     this.p1=px;
     this.p2=py;
-    this.tamo=tamaño
+    this.tamo=tamaño;
     this.activo=true;
   }
 dibujarGrupo(){

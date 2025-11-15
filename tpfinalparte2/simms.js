@@ -2,7 +2,7 @@ class Simms{
   constructor(x,y,ta){
     this.posx=x;
     this.posy=y;
-    this.tam=ta
+    this.tam=ta;
   }
 dibujarSimms(){
   fill(255,0,0);
